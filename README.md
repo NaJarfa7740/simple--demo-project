@@ -1,1 +1,1 @@
-# simple--demo-project
+# simple-project
