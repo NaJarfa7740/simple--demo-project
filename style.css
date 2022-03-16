@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+.btn{
+    transition: 0.5s;
+}
+.btn:hover {
+	color: #00e0d0;
+	box-shadow: 0px 0px 10px #00e0d0;
+}
+
+/* menu css start */
+.navbar-style{
+    box-shadow: 0 5px 10px gray;
+}
+.logo{
+    height: 60px;
+    padding: 2px 10px;
+}
+.navbar-light .navbar-nav .active > .nav-link{
+	color: #16a5a8;
+}
+.navbar-light .navbar-nav .nav-link {
+	color:#0000;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;    
+    
+}
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover{
+	color:#16a5a8;    
+}
+.navbar{
+    position: fixed;    
+    width: 100%;
+    z-index: 120;
+}
+
+
+.navbar{
+    transition: 1s;
+}
+.big-text{
+    font-size: 52px;
+    margin: 20px 0;
+    color: darkorange;
+
+}
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    border-radius: 20px;
+
+}
+a.btn-first{
+    background-color:darkorange;
+    color: #fff;
+}
+a.btn-secend{
+    background: transparent;
+    border: 1px solid darkorange;
+    color: black;
+}
+
+a.btn:hover{
+    background: darkorange;
+    border: none;
+    color: #fff;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0 .3s;
+}
+.banner-info h1{
+    padding-top:10px;
+}
+.banner-info, .banner-img{
+    margin: 50px 0;
+}
+
